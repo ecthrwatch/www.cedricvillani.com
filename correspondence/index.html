@@ -6,7 +6,7 @@
           : pref;
         document.documentElement.setAttribute("data-theme", resolved);
       })();
-    </script><link rel="stylesheet" href="/_astro/Base.DPbkSH4e.css">
+    </script><link rel="stylesheet" href="/_astro/Base.DL9meBB_.css">
 <link rel="stylesheet" href="/_astro/_..BgH5Jut5.css"></head> <body> <nav class="nav"> <div class="nav-inner">  <div class="nav-row-1"> <a href="/" class="nav-brand">CedricVillani.com</a> <button class="nav-hamburger" type="button" aria-expanded="false" aria-label="Menu"> <span class="hamburger-label">Menu &rarr;</span> <span class="hamburger-icon"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </span> </button> <div class="nav-controls"> <div class="theme-toggle" role="group" aria-label="Theme"> <button type="button" data-theme-set="light">Light</button> <button type="button" data-theme-set="dark">Dark</button> <button type="button" data-theme-set="auto">Auto</button> </div> <script>
 (function () {
   function getSystemTheme() {
@@ -168,6 +168,16 @@
       .exchange-reply-link {
         font-size: 0.9rem;
         font-weight: 600;
+      }
+      /* Marks a link that leads to the EN edition because this locale has no
+         page for it yet. Deliberately quiet: it is an honesty note, not a
+         warning — the reader still reaches the document. */
+      .exchange-lang-note {
+        font-size: 0.8rem;
+        font-style: italic;
+        opacity: 0.75;
+        white-space: nowrap;
+        margin-left: 0.4rem;
       }
       @media (max-width: 640px) {
         .exchange-item {
